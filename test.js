@@ -25,7 +25,7 @@ function preload() {
 
     //画像の読み込み
     for (let i = 0; i < sweetsNum; i++) {
-        picture[i] = loadImage('/datavis/sweets/' + 'sweets' + i + '.png');
+        picture[i] = loadImage('datavis/sweets/' + 'sweets' + i + '.png');
     }
 }
 
