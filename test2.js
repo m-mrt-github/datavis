@@ -56,8 +56,8 @@ function preload() {
 
 function setup() {
     
-    getAudioContext().suspend();
-    bgm.loop();
+    //getAudioContext().suspend();
+    //bgm.loop();
 
     positionX = new Array(sweetsNum);
     positionY = new Array(sweetsNum);
