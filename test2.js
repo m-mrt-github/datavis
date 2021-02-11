@@ -56,8 +56,8 @@ function preload() {
 
 function setup() {
     
-    getAudioContext().suspend();
-    bgm.loop();
+    //getAudioContext().suspend();
+    //bgm.loop();
 
     positionX = new Array(sweetsNum);
     positionY = new Array(sweetsNum);
@@ -173,7 +173,7 @@ function draw() {
         } else if (selectBox1.value() === 'Secret❤️') {
             positionX[i] = positionXFix[i] + random(0,0);
             if (bgmSwitch === 0){
-               userStartAudio();
+               //userStartAudio();
             bgm.loop();
             bgmSwitch = 1;
             }
